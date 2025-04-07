@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Error Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/Error" class="dashAnchor"></a>
+    <a title="Error Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 0.0.9 Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        Error Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/OSCANetworkService.html">OSCANetworkService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/HTTPMethodType.html">HTTPMethodType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCACoding.html">OSCACoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCACoding/DateEncodingKeys.html">– DateEncodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCANetworkError.html">OSCANetworkError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Publisher.html">Publisher</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkServiceType.html">NetworkServiceType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABundleRequestResource.html">OSCABundleRequestResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAClassRequestResource.html">OSCAClassRequestResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCANetworkConfiguration.html">OSCANetworkConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAUploadRequestResource.html">OSCAUploadRequestResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ParseError.html">ParseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ParseError/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ParseError/Code.html">– Code</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ParseUploadResponse.html">ParseUploadResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/QueryResponse.html">QueryResponse</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Error</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">Error</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s5ErrorP18OSCANetworkServiceE8equalsToyAC05ParseA0VSgAF4CodeOF"></a>
+                    <a name="//apple_ref/swift/Method/equalsTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s5ErrorP18OSCANetworkServiceE8equalsToyAC05ParseA0VSgAF4CodeOF">equalsTo(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the respective <code><a href="../Structs/ParseError.html">ParseError</a></code> if the given <code><a href="../Structs/ParseError.html">ParseError</a></code> code is equal to the error.</p>
+
+<p><strong>Example use case:</strong></p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">parseError</span> <span class="o">=</span> <span class="n">error</span><span class="o">.</span><span class="nf">equalsTo</span><span class="p">(</span><span class="o">.</span><span class="n">objectNotFound</span><span class="p">)</span>  <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">parseError</span><span class="o">.</span><span class="n">description</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">equalsTo</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorCode</span><span class="p">:</span> <span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="o">.</span><span class="kt">Code</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorCode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A <code><a href="../Structs/ParseError.html">ParseError</a></code> code to compare to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the <code><a href="../Structs/ParseError.html">ParseError</a></code> with respect to the <code>Error</code>. If the error is not a <code><a href="../Structs/ParseError.html">ParseError</a></code>, returns nil.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s5ErrorP18OSCANetworkServiceE8equalsToySbAC05ParseA0V4CodeOF"></a>
+                    <a name="//apple_ref/swift/Method/equalsTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s5ErrorP18OSCANetworkServiceE8equalsToySbAC05ParseA0V4CodeOF">equalsTo(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Validates if the given <code><a href="../Structs/ParseError.html">ParseError</a></code> code is equal to the error.</p>
+
+<p><strong>Example use case:</strong></p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="n">error</span><span class="o">.</span><span class="nf">equalsTo</span><span class="p">(</span><span class="o">.</span><span class="n">objectNotFound</span><span class="p">)</span>  <span class="p">{</span>
+    <span class="c1">//Do stuff</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">equalsTo</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorCode</span><span class="p">:</span> <span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="o">.</span><span class="kt">Code</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorCode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A <code><a href="../Structs/ParseError.html">ParseError</a></code> code to compare to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A boolean indicating whether or not the <code>Error</code> is the <code>errorCode</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s5ErrorP18OSCANetworkServiceE11containedInyAC05ParseA0VSgSayAF4CodeOGF"></a>
+                    <a name="//apple_ref/swift/Method/containedIn(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s5ErrorP18OSCANetworkServiceE11containedInyAC05ParseA0VSgSayAF4CodeOGF">containedIn(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the respective <code><a href="../Structs/ParseError.html">ParseError</a></code> if the <code>Error</code> is contained in the array of <code><a href="../Structs/ParseError.html">ParseError</a></code> codes.</p>
+
+<p><strong>Example use case:</strong></p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">parseError</span> <span class="o">=</span> <span class="n">error</span><span class="o">.</span><span class="nf">containedIn</span><span class="p">([</span><span class="o">.</span><span class="n">objectNotFound</span><span class="p">,</span> <span class="o">.</span><span class="n">invalidQuery</span><span class="p">])</span>  <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">parseError</span><span class="o">.</span><span class="n">description</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">containedIn</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorCodes</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="o">.</span><span class="kt">Code</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorCodes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of zero or more of <code><a href="../Structs/ParseError.html">ParseError</a></code> codes to compare to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the <code><a href="../Structs/ParseError.html">ParseError</a></code> with respect to the <code>Error</code>. If the error is not a <code><a href="../Structs/ParseError.html">ParseError</a></code>, returns nil.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s5ErrorP18OSCANetworkServiceE11containedInyAC05ParseA0VSgAF4CodeOd_tF"></a>
+                    <a name="//apple_ref/swift/Method/containedIn(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s5ErrorP18OSCANetworkServiceE11containedInyAC05ParseA0VSgAF4CodeOd_tF">containedIn(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the respective <code><a href="../Structs/ParseError.html">ParseError</a></code> if the <code>Error</code> is contained in the list of <code><a href="../Structs/ParseError.html">ParseError</a></code> codes.</p>
+
+<p><strong>Example use case:</strong></p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">parseError</span> <span class="o">=</span> <span class="n">error</span><span class="o">.</span><span class="nf">containedIn</span><span class="p">(</span><span class="o">.</span><span class="n">objectNotFound</span><span class="p">,</span> <span class="o">.</span><span class="n">invalidQuery</span><span class="p">)</span>  <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">parseError</span><span class="o">.</span><span class="n">description</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">containedIn</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorCodes</span><span class="p">:</span> <span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="o">.</span><span class="kt">Code</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorCodes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A variadic amount of zero or more of <code><a href="../Structs/ParseError.html">ParseError</a></code> codes to compare to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the <code><a href="../Structs/ParseError.html">ParseError</a></code> with respect to the <code>Error</code>. If the error is not a <code><a href="../Structs/ParseError.html">ParseError</a></code>, returns nil.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s5ErrorP18OSCANetworkServiceE11containedInySbSayAC05ParseA0V4CodeOGF"></a>
+                    <a name="//apple_ref/swift/Method/containedIn(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s5ErrorP18OSCANetworkServiceE11containedInySbSayAC05ParseA0V4CodeOGF">containedIn(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Validates if the given <code><a href="../Structs/ParseError.html">ParseError</a></code> codes contains the error.</p>
+
+<p><strong>Example use case:</strong></p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="n">error</span><span class="o">.</span><span class="nf">containedIn</span><span class="p">([</span><span class="o">.</span><span class="n">objectNotFound</span><span class="p">,</span> <span class="o">.</span><span class="n">invalidQuery</span><span class="p">])</span>  <span class="p">{</span>
+    <span class="c1">//Do stuff</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">containedIn</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorCodes</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="o">.</span><span class="kt">Code</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorCodes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of zero or more of <code><a href="../Structs/ParseError.html">ParseError</a></code> codes to compare to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A boolean indicating whether or not the <code>Error</code> is contained in the <code>errorCodes</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s5ErrorP18OSCANetworkServiceE11containedInySbAC05ParseA0V4CodeOd_tF"></a>
+                    <a name="//apple_ref/swift/Method/containedIn(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s5ErrorP18OSCANetworkServiceE11containedInySbAC05ParseA0V4CodeOd_tF">containedIn(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Validates if the given <code><a href="../Structs/ParseError.html">ParseError</a></code> codes contains the error.</p>
+
+<p><strong>Example use case:</strong></p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="n">error</span><span class="o">.</span><span class="nf">containedIn</span><span class="p">(</span><span class="o">.</span><span class="n">objectNotFound</span><span class="p">,</span> <span class="o">.</span><span class="n">invalidQuery</span><span class="p">)</span>  <span class="p">{</span>
+    <span class="c1">//Do stuff</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">containedIn</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorCodes</span><span class="p">:</span> <span class="kt"><a href="../Structs/ParseError.html">ParseError</a></span><span class="o">.</span><span class="kt">Code</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorCodes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A variadic amount of zero or more of <code><a href="../Structs/ParseError.html">ParseError</a></code> codes to compare to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A boolean indicating whether or not the <code>Error</code> is contained in the <code>errorCodes</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Stephan Breidenbach</a>. All rights reserved. (Last updated: 2022-03-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

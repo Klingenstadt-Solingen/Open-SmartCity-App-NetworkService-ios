@@ -1,0 +1,68 @@
+## Xcode
+.DS_Store
+
+## VSCode
+.vscode
+
+## Build generated
+build/
+DerivedData/
+build.log
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Swift Package Manager
+.build/
+.swiftpm/
+# Package.resolved
+
+## CocoaPods
+Pods/
+
+## Carthage
+Carthage/Build
+
+## Jazzy docs
+# docs/
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output
+
+## Gem
+Gemfile.lock
+
+
+## supporting Files secrets
+OSCANetworkService/OSCANetworkService/SupportingFiles/Development.xcconfig
+OSCANetworkService/OSCANetworkService/SupportingFiles/Production.xcconfig
+OSCANetworkService/OSCANetworkServiceTests/Resources/API_Develop.plist
+OSCANetworkService/OSCANetworkServiceTests/Resources/API_Release.plist
+OSCANetworkService/OSCANetworkService/Resources/API_Develop.plist
+OSCANetworkService/OSCANetworkService/Resources/API_Release.plist
+OSCANetworkService/OSCATestCaseExtension/Resources/API_Develop.plist
+OSCANetworkService/OSCATestCaseExtension/Resources/API_Release.plist
